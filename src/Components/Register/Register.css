@@ -1,0 +1,65 @@
+.allInput{
+    border-radius: 10px;
+    border-color: yellowgreen;
+}
+.formBody{
+    /* background-color: #fbf7eb; */
+    background-color: transparent;
+    padding: 20px 0;
+    margin:0 500px ;
+    box-shadow: 0 0 30px 0 #f5a503;
+    border-radius: 10px;
+    
+}
+/* Default Styles (for large screens) */
+.formBody {
+    /* background-color: #fbf7eb; */
+    background-color: transparent;
+    padding: 20px 0;
+    margin: 10px 500px; /* Fixed margin for large screens */
+}
+
+/* For screens smaller than or equal to 1080px */
+@media only screen and (max-width: 1080px) {
+    .formBody {
+        margin: 10px 100px; /* Reduce margin */
+    }
+}
+
+/* For screens smaller than or equal to 720px */
+@media only screen and (max-width: 720px) {
+    .formBody {
+        margin: 0 50px; /* Further reduce margin */
+    }
+}
+
+/* For screens smaller than or equal to 480px */
+@media only screen and (max-width: 480px) {
+    .formBody {
+        margin: 0 20px; /* Narrow margin for mobile devices */
+    }
+}
+
+/* For screens smaller than or equal to 320px */
+@media only screen and (max-width: 320px) {
+    .formBody {
+        margin: 2px 10px; /* Minimum margin for very small screens */
+    }
+}
+.allBody{
+   background-image: url("../../Photo/gallery/gallery09.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  
+  
+    height: auto;
+   box-shadow: 0 0 80px 0 black; 
+   border-radius: 20px;
+   padding: 6rem 0;
+    
+}
+.mainHeading{
+    color: aliceblue;
+   font-family: 'Times New Roman', Times, serif;
+   text-shadow:3px 2px rgb(220, 3, 14);
+}

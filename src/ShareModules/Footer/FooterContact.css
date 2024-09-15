@@ -1,0 +1,17 @@
+.footerContact{
+    background-color: #131313;
+}
+.ContactHeading{
+    color: white;
+}
+.InputDetails{
+    display: flex;
+}
+.ContactSubmit{
+    background-color: #c2a667;
+    padding: 10px;
+    font-size: 22px;
+    color: #e7e4dd;
+    margin: 20px;
+    border-radius: 10px;
+}

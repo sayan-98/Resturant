@@ -1,0 +1,33 @@
+.logoNav{
+    width: 50px;
+    box-shadow: 0 0 20px 0 rgb(238, 110, 36);
+    border-radius: 50%;
+    
+}
+.color{
+    background-color: #ebfadd;
+   
+    
+}
+
+.headerText{
+    color: #414141;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    
+}
+.headerText:hover{
+font-size: 18px;
+color: orangered;
+transition: 0.3s;
+
+}
+.loginButton{
+    margin-left: auto;
+}
+.LogName{
+    color:#c0a860 ;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+}

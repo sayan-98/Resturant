@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.mainMenu h1{
+    font-size: 50px;
+    color: #887124;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+}
+/* Default styling */
+.mainMenu h1 {
+    font-size: 50px;
+    color: #887124;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+}
+
+/* For screens up to 320px */
+@media (max-width: 320px) {
+    .mainMenu h1 {
+        font-size: 20px;
+    }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+    .mainMenu h1 {
+        font-size: 30px;
+    }
+}
+
+/* For screens up to 720px */
+@media (max-width: 720px) {
+    .mainMenu h1 {
+        font-size: 36px;
+    }
+}
+
+/* For screens up to 1080px */
+@media (max-width: 1080px) {
+    .mainMenu h1 {
+        font-size: 45px;
+    }
+}
+.mainMenu p{
+    color: #bca76a;
+    font-size: 40px;
+    font-style: italic;
+    font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+}
+/* Default styling */
+.mainMenu p {
+    color: #bca76a;
+    font-size: 40px;
+    font-style: italic;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+/* For screens up to 320px */
+@media (max-width: 320px) {
+    .mainMenu p {
+        font-size: 20px;
+    }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+    .mainMenu p {
+        font-size: 24px;
+    }
+}
+
+/* For screens up to 720px */
+@media (max-width: 720px) {
+    .mainMenu p {
+        font-size: 30px;
+    }
+}
+
+/* For screens up to 1080px */
+@media (max-width: 1080px) {
+    .mainMenu p {
+        font-size: 35px;
+    }
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+
+/* Default styling for larger screens */
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows items to wrap if needed */
+}
+
+/* For screens up to 320px */
+@media (max-width: 320px) {
+    .main {
+        display: block; /* Stacks items vertically */
+        padding: 10px; /* Adds padding to avoid content touching the edges */
+    }
+    
+    .list {
+        margin-bottom: 20px; /* Adds space between stacked items */
+    }
+    
+    .list h4, .list p {
+        font-size: 16px; /* Adjust font size for better readability */
+        color: #575f6d;
+    }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+    .main {
+        display: block; /* Stacks items vertically */
+        padding: 15px; /* Adds padding to avoid content touching the edges */
+    }
+    
+    .list {
+        margin-bottom: 20px; /* Adds space between stacked items */
+    }
+    
+    .list h3, .list p {
+        font-size: 18px;
+        color: #575f6d; /* Adjust font size for better readability */
+    }
+}
+
+/* For screens up to 780px */
+@media (max-width: 780px) {
+    .main {
+        display: flex;
+        flex-direction: column; /* Stacks items vertically */
+        align-items: center; /* Centers items horizontally */
+        padding: 20px; /* Adds padding to avoid content touching the edges */
+    }
+    
+    .list {
+        margin-bottom: 20px; /* Adds space between stacked items */
+        text-align: center; /* Centers text in each list item */
+    }
+    
+    .list h3, .list p {
+        font-size: 16px; /* Adjust font size for better readability */
+        color: #575f6d;
+    }
+}
+.list p{
+    color:#575f6d ;
+}
+.list h4{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}

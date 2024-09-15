@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.aboutHeading{
+    font-size: 30px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.AboutHistory h1{
+     
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #c6b067;
+        font-size: 60px;
+      
+}
+.AboutHistory{
+    width: 50%;
+}
+/* Example: Adjust the width for smaller screens */
+/* Set width to 100% for 320px and 480px screens */
+@media (max-width: 480px) {
+    .AboutHistory {
+        width: 100%;
+    }
+}
+
+/* Set width to 50% for screens larger than 480px */
+@media (min-width: 481px) {
+    .AboutHistory {
+        width: 50%;
+    }
+}
+
+
+.CPart1{
+    display: flex;
+}
+/* Disable flex display for 320px, 480px, and 800px */
+@media (max-width: 320px),
+       (max-width: 480px),
+       (max-width: 800px) {
+    .CPart1 {
+        display: block; /* Or any other display value */
+    }
+}
+
+/* Enable flex display for screens larger than 800px */
+@media (min-width: 801px) {
+    .CPart1 {
+        display: flex;
+    }
+}
+
+.historyP{
+   
+    text-align: center;
+   font-size: 18px;
+   color:#797979 ;
+}

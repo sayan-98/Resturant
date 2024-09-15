@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.styleFont {
+    font-family: "Dancing Script", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .reservationH{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  /* Default font size */
+.reservationH {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* For screens up to 320px */
+@media (max-width: 320px) {
+    .reservationH {
+        font-size: 24px;
+    }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+    .reservationH {
+        font-size: 30px;
+    }
+}
+
+/* For screens up to 720px */
+@media (max-width: 720px) {
+    .reservationH {
+        font-size: 36px;
+    }
+}
+
+/* For screens up to 1080px */
+@media (max-width: 1080px) {
+    .reservationH {
+        font-size: 50px;
+    }
+}
+.contactNumber{
+    color: #444241;
+    font-size: 50px;
+    font-family: 50px;
+}
+/* Default styling */
+.contactNumber {
+    color: #444241;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* For screens up to 320px */
+@media (max-width: 320px) {
+    .contactNumber {
+        font-size: 24px;
+    }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+    .contactNumber {
+        font-size: 30px;
+    }
+}
+
+/* For screens up to 720px */
+@media (max-width: 720px) {
+    .contactNumber {
+        font-size: 36px;
+    }
+}
+
+/* For screens up to 1080px */
+@media (max-width: 1080px) {
+    .contactNumber {
+        font-size: 45px;
+    }
+}

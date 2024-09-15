@@ -1,0 +1,6 @@
+.showMenu{
+    background-image: url("../../Photo/video/showMenuVideo.gif");
+    /* background-color: red; */
+    background-size: cover;
+    border-radius: 20px;
+}
